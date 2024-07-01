@@ -1,0 +1,8 @@
+pandas
+beautifulsoup4
+matplotlib
+seaborn
+requests
+flask
+wtforms
+gunicorn

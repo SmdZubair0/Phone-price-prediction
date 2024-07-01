@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 15vh;
+    background-color: rgb(74, 74, 183);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+}
+main{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+body{
+    background-color: azure;
+}
+form{
+    width: 80vw;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2vw;
+}
+.label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.input > *{
+    width: 20vw;
+    height: 30px;
+    font-size: 15px;
+    padding: 0 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.inptag{
+    margin: 30px;
+    width: 30vw;
+}
+.predtag > *{
+    width: 70vw;
+    height: 40px;
+    background-color: rgb(20, 31, 193);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.result{
+    height: 80px;
+    width: 80vw;
+    margin: 20px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: rgb(24, 165, 24);
+    color: white;
+}
+footer{
+    background-color: rgb(43, 43, 96);
+    height: 10vh;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:900px) {
+    .inptag{
+        width: 60vw;
+    }
+    .input > *{
+        width: 60vw;
+    }
+    header{
+        font-size: 4vw;
+    }
+    footer{
+        font-size: 4vw;
+
+    }
+}

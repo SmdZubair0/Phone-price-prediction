@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1>Mobile Price Prediction</h1>
+    </header>
+
+    <main>
+
+        <form action="" method="POST">
+            {{ form.hidden_tag() }}
+
+            <div class="inptag">
+                <div class="label">{{ form.brand.label }}</div>
+                <div class="input">{{ form.brand() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.ram.label }}</div>
+                <div class="input">{{ form.ram() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.touchscreen.label }}</div>
+                <div class="input">{{ form.touchscreen() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.storage.label }}</div>
+                <div class="input">{{ form.storage() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.expandable.label }}</div>
+                <div class="input">{{ form.expandable() }}</div>
+            </div>
+            <div class="inptag">
+                <div class="label">{{ form.quick_charging.label }}</div>
+                <div class="input">{{ form.quick_charging() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.processor.label }}</div>
+                <div class="input">{{ form.processor() }}</div>
+            </div>
+
+
+            <div class="inptag">
+                <div class="label">{{ form.core.label }}</div>
+                <div class="input">{{ form.core() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.gpu.label }}</div>
+                <div class="input">{{ form.gpu() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.network.label }}</div>
+                <div class="input">{{ form.network() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.hd.label }}</div>
+                <div class="input">{{ form.hd() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.battery.label }}</div>
+                <div class="input">{{ form.battery() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.battery_type.label }}</div>
+                <div class="input">{{ form.battery_type() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.charger.label }}</div>
+                <div class="input">{{ form.charger() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.height.label }}</div>
+                <div class="input">{{ form.height() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.display.label }}</div>
+                <div class="input">{{ form.display() }}</div>
+            </div>
+
+            <div class="inptag">
+                <div class="label">{{ form.rating.label }}</div>
+                <div class="input">{{ form.rating() }}</div>
+            </div>
+
+            <div class="predtag input">{{ form.submit() }}</div>
+        </form>
+
+
+            {% if pred %}
+            <div class="result">
+                <h3>Prediction: {{ pred }}</h3>
+            </div>
+            {% endif %}
+        </main>
+    <footer>
+        Copyright © 2024 SmdZubair | Powered by SmdZubair
+    </footer>
+</body>
+
+</html>

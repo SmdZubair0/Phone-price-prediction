@@ -1,0 +1,186 @@
+div.class = WSL9JP = page number
+class="DOjaWF gdgoEp" = phones page
+cPHDOP col-12-12 = phone div
+CGtC98 = phone link
+
+specs = GNDEQ-
+table row = WJdYP6 row
+price = yRaY8j A6+E6v
+title = VU-ZEz
+rating = XQDdHH
+imgs = DByuf4 IZexXJ jLEJ7H
+
+
+attribute = +fFi1w col col-3-12
+value = HPETK2
+
+
+important columns : 
+[ 'title',
+ 'rating',
+ 'image',
+ 'price',
+ 'In The Box',
+ 'Model Name',
+ 'Color',
+ 'SIM Type',
+ 'Touchscreen',
+ 'Quick Charging',
+ 'Display Size',
+ 'Resolution',
+ 'GPU',
+ 'Operating System',
+ 'Processor Brand',
+ 'Processor Type',
+ 'Processor Core',
+ 'Primary Clock Speed',
+ 'Internal Storage',
+ 'RAM',
+ 'Expandable Storage',
+ 'Primary Camera',
+ 'Secondary Camera',
+ 'HD Recording',
+ 'Video Recording Resolution',
+ 'Network Type',
+ 'Battery Capacity',
+ 'Battery Type',
+ 'Warranty Summary',
+ 'JAVA Support']
+
+
+
+
+
+
+
+
+
+
+
+extra remove
+Model Name  remove
+Color remove
+SIM Type remove
+Display Size remove
+Resolution remove
+Operating System remove
+Processor Type remove
+Processor Core remove
+Primary Clock Speed remove
+Internal Storage remove
+Expandable Storage remove
+Primary Camera remove
+Secondary Camera remove
+Video Recording Resolution remove
+Network Type remove
+
+
+title keep
+rating keep
+image keep
+price keep
+handset keep (c)
+charger keep (c)
+warranty keep (c)
+cable keep (c)
+pro keep (c)
+model keep (c)
+color1 keep (c)
+color2 keep (c)
+sim keep (c)
+quick_charge keep (c)
+display keep (c)
+height keep (c)
+width keep (c)
+os keep (c)
+core keep (c)
+clock_speed keep (c)
+storage keep (c)
+expandable keep (c)
+camera keep (c)
+secondary keep (c)
+
+network keep (c)
+
+
+Touchscreen rename
+GPU rename
+Processor Brand rename
+RAM rename
+HD Recording rename
+Battery Capacity rename
+Battery Type rename
+Warranty Summary rename
+JAVA Support rename
+
+
+
+
+
+
+
+
+title 0
+image 0
+rating 1
+price 1
+touch 1
+quick_charge 1
+gpu 1
+processor_brand 1
+ram 1
+hd 1
+battery 1
+battery_type 1
+warranty_time 0
+java 0
+brand 1
+headset 0
+charger 1
+cable 0
+warranty 0
+pro 0
+model 0
+color1 0
+color2 0
+sim 0
+display 1
+height 1
+width 0
+os 0
+core 1
+clock_speed 0
+storage 1
+expandable 1
+camera 0
+secondary_camera 0
+network 1
+
+
+
+
+final features
+
+
+brand          
+ram            
+touch          
+storage        
+expandable     
+quick_charge   
+processor_brand
+core           
+gpu            
+network      
+hd             
+battery        
+battery_type   
+charger        
+display        
+height         
+price          
+
+
+
+
+touch, quickcharge,gpu
