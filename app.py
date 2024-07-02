@@ -14,6 +14,10 @@ def home():
     form = Inputform()
     
     if request.method == 'POST':
+        print("Form submitted!")
+        print(f"Form data: {request.form}")
+    
+        print("Form validated!")
         # Process form data and make predictions
         df = pd.DataFrame({
             "brand" : [form.brand.data.lower()],

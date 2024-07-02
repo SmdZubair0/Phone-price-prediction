@@ -5,7 +5,6 @@ seaborn
 requests
 flask
 wtforms
-Flask-WTF==1.2.1
-pickleshare==0.7.5
-scikit-learn
+pickle
+flask_wtf
 gunicorn
