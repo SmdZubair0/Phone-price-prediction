@@ -1,6 +1,13 @@
 # 📱 Phone Price Prediction
 
 This project predicts the price of a smartphone based on its specifications like brand, RAM, storage, camera, etc. The dataset was generated using web scraping and the model is
+
+---
+
+## 📂 Folder Structure
+
+<pre>
+    
 📦 phone-price-prediction/
     ├── files/
     │ ├── CleanedData.csv
@@ -22,6 +29,7 @@ This project predicts the price of a smartphone based on its specifications like
     ├── requirements.txt
     └── README.md
 
+</pre>
 
 ---
 
